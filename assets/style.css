@@ -16,6 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: orange;
+  width: 30%;
 }
 
 #header-list-items {
