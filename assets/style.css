@@ -1,6 +1,7 @@
 /* this section targets the entire document */
 body {
   background-color: aquamarine;
+  padding: 20px;
 }
 
 /* This is for the header */
@@ -15,7 +16,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: orange;
 }
 
 #header-list-items {
@@ -55,12 +55,18 @@ body {
 .link-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-#linkedin {
-  height: 50px;
-  width: 50px;
+#linkedIn {
+  height: 100px;
+  width: 100px;
+  padding: 8px 16px;
+}
+
+#Instagram {
+  height: 100px;
+  width: 100px;
   padding: 8px 16px;
 }
 
